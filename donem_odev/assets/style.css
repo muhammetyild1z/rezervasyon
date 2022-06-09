@@ -1,0 +1,245 @@
+.navbar {
+    overflow: hidden;
+
+    background-color: #232323;
+   
+  }
+  
+  .navbar a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    
+  }
+  .navbar .navbar-sag a:visited{
+      color: white;
+      text-decoration: none;
+  }
+  .navbar .logo {
+    float: 	left;
+	margin-top: -12px;
+	outline: none;
+  }
+  .navbar .logo h2{
+    margin-left:120px;
+    color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 700;
+	-webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+  }
+  .navbar .logo h2 em{
+      
+  font-style: normal;
+	color: #f33f3f;
+}
+  
+  .navbar .navbar-sag a:hover {
+    text-decoration: none;
+    color:white;
+    border-bottom: 3px solid #f33f3f;
+    transition: 0.3s;
+    position: relative;
+  }
+  
+  .navbar .navbar-sag a.active {
+    
+    border-bottom: 2px solid #f33f3f;
+  }   
+  .navbar-sag {
+    float: right;
+    margin-right: 8%;
+    padding-top: 9px;
+    
+  }
+  .banner {
+	position: relative;
+	text-align: center;
+
+}
+
+.banner-1 {
+	padding: 200px 0px;
+	background-image: url(./images/slider-image-1-1920x600.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+    .text-content h4 {
+        color: #f33f3f;
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .text-content h2 {
+        color: #fff;
+        font-size: 62px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+    .bizeulas .kutu {
+        margin-top: 60px;
+        padding: 30px;
+        background-color: #f7f7f7;
+        border-radius: 5px;
+    }
+    
+    .bizeulas .kutu h4 {
+        font-size: 17px;
+        color: #1a6692;
+        margin-bottom: 15px;
+    }
+    .bizeulas .kutu .col-md-4 {
+        text-align: right;
+    }
+    
+    .bizeulas .kutu .filled-button {
+        margin-top: 12px;
+    }
+    a.buton-kirmizi {
+        background-color: #f33f3f;
+        color: #fff;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 300;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: inline-block;
+        transition: all 0.3s;
+        margin-top: 15px;
+    }
+    .bizeulas{
+        margin-bottom: 30px;
+        margin-top: -5px;
+    }
+    footer {
+        text-align: center;
+        margin-top: 15px;
+        background-color: #232323;
+    }
+    
+    footer .inner-content {
+        border-top: 1px solid #f1f1f1;
+        
+        padding: 25px 0px;
+    }
+    footer .inner-content p a {
+        color: #f33f3f;
+        margin-left: 3px;
+    }
+  .kisablog {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 100px 0px;
+}
+.kisablog .section-heading h2 { 
+	color: #fff; 
+}
+
+.kisablog-eleman {
+	text-align: center;
+	margin-bottom: 30px;
+    
+}
+.kisablog-eleman .icon i {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	text-align: center;
+	line-height: 100px;
+	background-color: #f33f3f;
+	color: #fff;
+	font-size: 32px;
+}
+.kisablog-eleman .blogyazi {
+	background-color: #fff;
+	padding: 40px 30px;
+}
+.page-heading {
+	padding: 210px 0px 130px 0px;
+	text-align: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body{
+  background:#eee;    
+ }
+ 
+ p {
+     font-size: 14px;
+     color: #777;
+ }
+ 
+ .blog .image {
+     height: 250px;
+     overflow: hidden;
+     border-radius: 3px 0 0 3px;
+ }
+ 
+ .blog .image img {
+     width: 100%;
+     height: auto;
+ }
+ 
+ .blog .date {
+     top: -10px;
+     z-index: 99;
+     width: 65px;
+     right: -10px;
+     height: 65px;
+     padding: 10px;
+     position: absolute;
+     color:#FFFFFF;
+     font-weight:bold;
+     background: #5bc0de;
+     border-radius: 999px;
+ }
+ 
+ .blog .blog-details {
+     padding: 0 20px 0 0;
+ }
+ 
+ .blog {
+     padding: 0;
+ }
+ 
+ .well {
+     border: 0;
+     padding: 20px;
+     min-height: 63px;
+     background: #fff;
+     box-shadow: none;
+     border-radius: 3px;
+     position: relative;
+     max-height: 100000px;
+     border-bottom: 2px solid #ccc;
+ }
+ 
+ .blog .blog-details h2 {
+     margin-bottom: 10px;
+     padding-bottom: 10px;
+     border-bottom: 1px solid #eee;
+ }
+ 
+ .blog .date .blog-number {
+     color: #fff;
+     display: block;
+     font-size: 24px;
+     text-align: center;
+ }                    
+ 
+ 
